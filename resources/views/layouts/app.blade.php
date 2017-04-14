@@ -114,6 +114,6 @@
         overlayBg.style.display = "none";
     }
 </script>
-
+@yield('body')
 </body>
 </html>

@@ -51,3 +51,16 @@
     </div>
 </div>
 @endsection
+@section('body')
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="/js/jquery.backstretch.min.js"></script>
+    <script type="text/javascript">
+        $.backstretch([
+            "/images/background/1.jpg",
+            "/images/background/2.jpg",
+            "/images/background/3.jpg",
+            "/images/background/4.jpg",
+            "/images/background/5.jpg",
+        ], {duration: 3000, fade: 750});
+    </script>
+@endsection
